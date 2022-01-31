@@ -1,0 +1,173 @@
+/* Design for body section*/
+body{
+	background-color: gray;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+/* Design for our menu */
+h1{
+	text-align: center;
+}
+/* Design for all the sections and desktop screen*/
+@media (min-width : 992px){
+	#section1{
+	background-color: aqua;	
+	border: 5px solid;
+	border-color: black;
+	width: 30%;
+	padding: 0px;
+	margin: 1.666%;
+	box-sizing: border-box;
+	float: left;
+	}
+
+	#section2{
+	background-color: silver;	
+	border: 5px solid;
+	border-color: black;
+	width: 30%;
+	padding: 0px;
+	margin: 1.666%;
+	box-sizing: border-box;
+	float: left;
+	}
+
+	#section3{
+	background-color: antiquewhite;	
+	border: 5px solid;
+	border-color: black;
+	width: 30%;
+	padding: 0px;
+	margin: 1.666%;
+	box-sizing: border-box;
+	float: left;	
+	}
+}
+
+/* Design for all the sections and tablet screen*/
+@media (min-width : 768px) and (max-width : 991px){
+	#section1{
+	background-color: aqua;	
+	border: 5px solid;
+	border-color: black;
+	width: 46%;
+	padding: 0px;
+	margin: 2%;
+	box-sizing: border-box;
+	float: left;
+	}
+
+	#section2{
+	background-color: silver;	
+	border: 5px solid;
+	border-color: black;
+	width: 46%;
+	padding: 0px;
+	margin: 2%;
+	box-sizing: border-box;
+	float: left;
+	}
+
+	#section3{
+	background-color: antiquewhite;	
+	border: 5px solid;
+	border-color: black;
+	width: 96%;
+	padding: 0px;
+	margin: 2%;
+	box-sizing: border-box;
+	float: left;	
+	}
+}
+
+
+/* Design for all the sections and mobile screen*/
+@media (max-width : 767px){
+	#section1{
+	background-color: aqua;	
+	border: 5px solid;
+	border-color: black;
+	width: 94%;
+	padding: 0px;
+	margin: 3%;
+	box-sizing: border-box;
+	float: left;
+	}
+
+	#section2{
+	background-color: silver;	
+	border: 5px solid;
+	border-color: black;
+	width: 94%;
+	padding: 0px;
+	margin: 3%;
+	box-sizing: border-box;
+	float: left;
+	}
+
+	#section3{
+	background-color: antiquewhite;	
+	border: 5px solid;
+	border-color: black;
+	width: 94%;
+	padding: 0px;
+	margin: 3%;
+	box-sizing: border-box;
+	float: left;	
+	}
+}
+
+/* Design for all the headings inside the section*/
+#heading1{
+	background-color: brown;
+	color: silver;
+	width: 25%;
+	text-align: center;
+	padding: 5px;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	margin: 0px;
+	float: right;
+	margin: 0px;
+}
+
+#heading2{
+	background-color: aliceblue;
+	color: blueviolet;
+	width: 25%;
+	text-align: center;
+	padding: 5px;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	margin: 0px;
+	float: right;
+	margin: 0px;
+}
+
+#heading3{
+	background-color: burlywood;
+	color: darkblue;
+	width: 25%;
+	text-align: center;
+	padding: 5px;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	margin: 0px;
+	float: right;
+	margin: 0px;
+}
+
+/* Design for all the paragraph*/
+p{
+	font-family: cursive;
+	padding: 10px;
+	clear: both;
+}
+
+#paragraph2,#paragraph3{
+	word-spacing: 1px;
+	padding-bottom: 3px;
+	margin-bottom: 0px;
+}
